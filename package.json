@@ -1,0 +1,23 @@
+{
+  "name": "@writetome51/array-get-merged-arrays",
+  "version": "1.0.0",
+  "description": "array-handling functions that return data from the array but do not modify the array",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "manipulation",
+    "return",
+    "data"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "devDependencies": {
+    "@writetome51/arrays-match": "latest"
+  },
+  "dependencies": {
+    "basic-data-handling": "latest"
+  }
+}
