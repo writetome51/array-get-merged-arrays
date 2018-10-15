@@ -9,8 +9,9 @@
   "keywords": [
     "array",
     "manipulation",
-    "return",
-    "data"
+    "flatten",
+    "merge",
+    "arrays"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
