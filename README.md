@@ -12,3 +12,6 @@ let merged = getMergedArrays(theArrays);
 
 It should be noted that the source array (theArrays, in this case) does not 
 get modified.
+
+NOTICE:  This function is tested to merge up to 120,000 arrays in one call.  
+If you go higher than that, you may get a 'maximum call stack' error.
