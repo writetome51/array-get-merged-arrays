@@ -1,4 +1,4 @@
-import { getMergedArrays } from './getMergedArrays';
+import { getMergedArrays } from './index';
 import { arraysMatch } from '@writetome51/arrays-match';
 
 

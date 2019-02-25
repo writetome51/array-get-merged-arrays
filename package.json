@@ -2,9 +2,10 @@
   "name": "@writetome51/array-get-merged-arrays",
   "version": "1.1.1",
   "description": "Returns multiple arrays concatenated into one array",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [
     "array",
@@ -16,9 +17,9 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "devDependencies": {
-    "@writetome51/arrays-match": "~1.0.4"
+    "@writetome51/arrays-match": "~1.0.5"
   },
   "dependencies": {
-    "basic-data-handling": "~1.0.13"
+    "basic-data-handling": "~1.0.15"
   }
 }
