@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var errorIfNotArray_1 = require("basic-data-handling/errorIfNotArray");
+var error_if_not_array_1 = require("error-if-not-array");
 // Returns all arrays inside 'arrays' combined into one array.
 function getMergedArrays(arrays) {
-    errorIfNotArray_1.errorIfNotArray(arrays);
+    error_if_not_array_1.errorIfNotArray(arrays);
     var emptyArray = [];
     return emptyArray.concat.apply(emptyArray, arrays);
 }
