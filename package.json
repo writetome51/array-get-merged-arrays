@@ -3,18 +3,16 @@
   "version": "2.0.0",
   "description": "Returns multiple arrays concatenated into one array",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "main": "index.js",
   "keywords": [
     "array",
+    "arrays",
     "manipulation",
     "flatten",
-    "merge",
-    "arrays"
+    "concat",
+    "merge"
   ],
+  "homepage": "https://github.com/writetome51/array-get-merged-arrays#readme",
   "author": "Steve Thompson",
   "license": "MIT",
   "devDependencies": {
